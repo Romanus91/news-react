@@ -9,6 +9,7 @@ import Skeleton from "../../components/Skeleton/Skeleton";
 export default function Main() {
   const [news, setNews] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  console.log(111);
 
   useEffect(() => {
     setIsLoading(true)
