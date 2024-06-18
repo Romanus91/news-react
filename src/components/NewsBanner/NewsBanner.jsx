@@ -3,7 +3,6 @@ import Image from "../image/Image";
 import styles from "./styles.module.css";
 
 export default function NewsBanner({ item }) {
-  console.log(item);
   return (
     <div className={styles.banner}>
       <Image image={item?.image} />
